@@ -30,3 +30,19 @@ The system manages different types of vehicles: **Motorcycles**, **Cars**, and *
 - `Engine` (Represents the engine of a vehicle)
 - `VehicleManager` (Handles all operations: add, delete, modify, search, save/load)
 - `enums.dart` (Contains `FuelType`, `GearType`, and other enumerations)
+
+---
+
+## Installation & Run
+1. Clone the repository:
+```bash
+git clone https://github.com/Rajaa-Ayyash/Vehicle-Management-System.git
+
+# Navigate to the project directory
+cd Vehicle-Management-System
+
+# Get the dependencies
+dart pub get
+
+# Run the application from terminal
+dart run bin/main.dart
